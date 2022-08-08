@@ -12,3 +12,4 @@ greeting.classList.remove("text-primary")
 greeting.classList.remove("second-class","third-class") //birden fazla class silmek
 console.log(greeting.classList)
 
+console.log(!!2)
