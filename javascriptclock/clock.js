@@ -4,9 +4,9 @@ function showTime(){
     let m = TIME.getMinutes();
     let s = TIME.getSeconds();
     let d = TIME.getDay();
+        
     let day = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
-    let currentDay = day[d].toString();    
-    
+    let currentDay = day[d].toString();        
     let myClock = document.querySelector("#myClock")
     myClock.innerHTML = h + ":" + m +":"+s +" "+currentDay;
     setTimeout(showTime,1000);
