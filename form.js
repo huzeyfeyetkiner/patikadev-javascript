@@ -35,3 +35,4 @@ const addItem = (userName,score) => {
     liDOM.classList.add("list-group-item","d-flex","justify-content-between","align-items-center")
     userLıstDOM.append(liDOM)
 }
+
