@@ -44,5 +44,14 @@ function check(){
 }
  
 
+//Enter tuşuna basıldığında listeye ekleme yapmayı sağlıyor
+window.addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {
+        $("#liveToastBtn").click();
+    }
+  });
+
+  
+
 
 
