@@ -57,7 +57,6 @@ values.forEach(value => {
 
 //objelere method eklemek
 
-
 let userSettings = {
 
     user_name: "Huzeyfe",
